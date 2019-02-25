@@ -1,0 +1,105 @@
+/* styles for interview */
+
+body {
+	background-color: rgb(54, 105, 247);
+	margin: 0;
+	padding: 0;
+}
+h1.topHeading {
+	color:rgb(250,250,250);
+	background-color: rgb(255, 215, 0);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Staatliches', cursive;
+	margin: 0;
+}
+
+
+div.menuBar {
+	text-align: center;
+	padding-left: 6%;
+	padding-top: 2%;
+	padding-bottom: .5%;
+	width: 100%;
+	height: 4vw;
+	margin: 0;
+	background-color: white;
+}
+
+
+
+.menuB{
+	font-family: 'Staatliches', cursive;
+	font-size:1.8em;
+	color: grey;
+	float: left;
+	width:22%;
+	background-color: ;
+}
+.pagematerial{
+	float:none;
+	padding-top: 17%;
+}
+
+.stayPut{
+	position: fixed;
+	width: 100%;
+}
+
+div.pics{
+	text-align: center;
+}
+
+p {
+	float: none;
+	color: white ;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Abel', sans-serif;
+	font-style: italic;
+}
+
+.firstL {
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 2.1em;
+}
+
+.textLink {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+a.homeLink:hover{
+	color: blue;
+}
+
+a.textLink:hover{
+	color: rgb(255, 215, 0);
+}
+
+a.menuB:hover{
+	color: rgb(255,215,0);
+	background-color: ;
+}
+
+a.menuLink:hover{
+	color: rgb(255,215,90);
+	background color: lightgrey ;
+}
+
+/* Allows for fonts to be carried via styles instead of copy paste per page */
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+</style> 
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Abel|Staatliches');
+</style> 
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur');
+</style> 
